@@ -5,8 +5,19 @@ body {
   background-color: #191970; /* midnight blue */
   color: #ffffff;
   font-family: monospace;
-  margin: 50px;
+  margin: 0;
+  padding: 2rem;
   line-height: 1.6;
+  box-sizing: border-box;
+}
+
+/* --- page layout --- */
+main {
+  max-width: 680px;        /* keep content readable */
+  margin: 0 auto;          /* center on the page */
+  padding: 2rem;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 14px rgba(255, 0, 0, 0.15); /* soft red glow */
 }
 
 /* --- links --- */
