@@ -1,0 +1,64 @@
+/* incubi — yume nikki / weirdcore blog stylesheet */
+
+/* --- base --- */
+body {
+  background-color: #191970; /* midnight blue */
+  color: #ffffff;
+  font-family: monospace;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+/* --- page layout --- */
+main {
+  max-width: 680px;        /* keep content readable */
+  margin: 0 auto;          /* center on the page */
+  padding: 2rem;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 14px rgba(255, 0, 0, 0.15); /* soft red glow */
+}
+
+/* --- links --- */
+a {
+  color: red;
+}
+
+a:visited {
+  color: tomato;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* --- headings --- */
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.4);
+}
+
+/* --- header --- */
+header {
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* --- nav list --- */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0.5rem 0;
+}
+
+nav ul li::before {
+  content: "» ";
+}
