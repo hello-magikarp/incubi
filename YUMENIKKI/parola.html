@@ -4,22 +4,48 @@
   <head>
     <meta charset="UTF-8" />
     <title>Parola</title>
+    <style>
+    body {
+        background-color: cyan;
+        color: black;
+        text-align: center; /* centers h1 and paragraphs */
+    }
+    
+    main {background-color: white;}
+    
+    h1 {
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    div {
+        max-width: 1200px;
+        margin: 0 auto; /* centers the whole container */
+    }
+    
+    p {
+        margin-top: 30px;
+    }
+
+    img {
+        max-width: 1000px;
+        display: block;     /* allows margin auto to work */
+        margin: 0 auto;     /* centers the image */
+    }
+</style>
+
   </head>
-  <body bgcolor="#191970" text="#FFFFFF" 
-  link="red" vlink="tomato">
-    <h1 style="
-      font-size: 48px;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    ">
+  <body>
+  
+    <main>
+    <h1>
         Parola
     </h1>
 
-    <div style="display: flex; flex-direction: column; align-items: center;">
-      <!--<img src="minres.jpg"alt="immagine" 
-        style="display: block; margin: 0 auto;">-->
-        <img src="minres.jpg" alt="immagine" style="max-width: 200px;">
+    <div>
+
+        <img src="assets/minres.jpg" alt="immagine">
+        
       <p>Pensiero profondo parola protratta
       Ritratto promessa ritorno protetta
       Trascino pensiero profondo parola
@@ -127,5 +153,7 @@
       Parola protratta ritratto promessa
       Ritorno protetta
     </div>
+    
+    <main>
   </body>
 </html>

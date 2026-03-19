@@ -1,23 +1,30 @@
 /* incubi — yume nikki / weirdcore blog stylesheet */
 
-.index {
-    background-color: blue;
-    color: #000000;
-    font-family: arial;
-}
+
 /* --- base --- */
 body {
-  background-color: #666666; /* midnight blue */
-  color: #000000;
-  font-family: times new roman;
-  margin: 2rem;
-  line-height: 1.6;
-  box-sizing: border-box;
+    background-color: blue;
+    color: black;
+    text-align: center; /* centers h1 and paragraphs */
 }
 
+    div {
+        max-width: 1200px;
+        margin: 0 auto; /* centers the whole container */
+    }
+    
+    p {
+        margin-top: 30px;
+    }
+
+img {
+    max-width: 1000px;
+    display: block;     /* allows margin auto to work */
+    margin: 0 auto;     /* centers the image */
+}
 /* --- page layout --- */
 main {
-  background-color:  #ffffff;
+  background-color: white;
   max-width: 680px;        /* keep content readable */
   margin: 0 auto;          /* center on the page */
   padding: 2rem;
@@ -25,7 +32,7 @@ main {
 
 /* --- links --- */
 a {
-  color: #cc0000;
+  color: red;
 }
 
 a:visited {
@@ -40,7 +47,7 @@ a:hover {
 /* --- headings --- */
 h1 {
   font-size: 2.5rem;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -50,6 +57,7 @@ header {
   margin: 3rem;
   font-size: 0.85rem;
   opacity: 0.7;
+  background-color: gray;
 }
 
 img {
