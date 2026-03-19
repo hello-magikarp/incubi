@@ -1,5 +1,10 @@
 /* incubi — yume nikki / weirdcore blog stylesheet */
 
+.index {
+    background-color: blue;
+    color: #000000;
+    font-family: arial;
+}
 /* --- base --- */
 body {
   background-color: #666666; /* midnight blue */
